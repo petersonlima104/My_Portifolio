@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sobre — Péterson Lima</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <!-- Reuse navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Peterson Lima</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMain"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navMain" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="about.html">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="skills.html">Habilidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projetos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="py-5">
+      <div class="container">
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-4 text-center">
+            <img
+              src="assets/img/avatar.jpg"
+              alt="Foto Péterson Lima"
+              class="img-fluid rounded-circle shadow"
+              style="max-width: 200px; max-height: 200px"
+            />
+            <h3 class="mt-3">Péterson Lima</h3>
+            <p class="text-muted">Analista / Desenvolvedor de Sistemas</p>
+            <a
+              href="assets/CURRICULO_LINK.pdf"
+              class="btn btn-outline-primary btn-sm"
+              target="_blank"
+              ><i class="fa-solid fa-file-arrow-down me-1"></i>Baixar
+              currículo</a
+            >
+            <div class="mt-3">
+              <a
+                href="https://www.linkedin.com/in/peterson-antonio-morbach-lima-b5b3571a8/"
+                target="_blank"
+                class="me-2"
+                ><i class="fa-brands fa-linkedin fa-lg"></i
+              ></a>
+              <a
+                href="https://github.com/petersonlima104"
+                target="_blank"
+                class="me-2"
+                ><i class="fa-brands fa-github fa-lg"></i
+              ></a>
+              <a
+                href="https://wa.me/5551980533399?text=Ol%C3%A1%2C%20tudo%20bem%3F"
+                target="_blank"
+                ><i class="fa-brands fa-whatsapp fa-lg"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <h4>Quem sou</h4>
+            <p>
+              Sou profissional com ótima capacidade de comunicação, motivado,
+              com conhecimentos em linguagens como Java, JavaScrpt, HTML, CSS e
+              entre outras. Tenho habilidades em desenvolvimento web, além de
+              conhecimento em bancos de dados. Sou um solucionador de problemas
+              criativo, comunicativo e valorizo a colaboração em equipe. .
+            </p>
+
+            <h5>O que me entusiasma na área</h5>
+            <p>
+              Gosto de transformar dados em insights acionáveis, automatizar
+              tarefas repetitivas e construir soluções fáceis de manter. Gosto
+              de trabalhar próximo ao produto e ao usuário final para entender
+              problemas reais me motiva.
+            </p>
+
+            <h5>Fora do trabalho</h5>
+            <p>Hobbies: leitura técnica, esportes, projetos, estudos, etc.</p>
+
+            <div class="mt-4">
+              <a href="projects.html" class="btn btn-primary me-2"
+                >Ver projetos</a
+              >
+              <a href="contact.html" class="btn btn-outline-secondary"
+                >Contato</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer bg-dark text-white py-4">
+      <div
+        class="container d-flex flex-column flex-md-row justify-content-between align-items-center"
+      >
+        <div>
+          © <span id="year"></span> Péterson Lima — Todos os direitos reservados
+        </div>
+        <div>
+          <a
+            href="https://www.linkedin.com/in/peterson-antonio-morbach-lima-b5b3571a8/"
+            target="_blank"
+            class="text-white me-3"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            href="https://github.com/petersonlima104"
+            target="_blank"
+            class="text-white me-3"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://wa.me/5551980533399?text=Ol%C3%A1%2C%20tudo%20bem%3F"
+            target="_blank"
+            class="text-white me-3"
+            ><i class="fa-brands fa-whatsapp"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year2").textContent = new Date().getFullYear();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
