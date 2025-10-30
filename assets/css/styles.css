@@ -40,3 +40,34 @@
 .footer a:hover {
   opacity: 1;
 }
+
+/* Cards and images */
+.card img {
+  object-fit: cover;
+  height: 180px;
+}
+.card h5 {
+  font-weight: 600;
+}
+
+/* Small screens tweaks */
+@media (max-width: 767px) {
+  .hero {
+    min-height: 48vh;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .card img {
+    height: 160px;
+  }
+}
+
+/* Utility */
+.btn-primary {
+  background: var(--brand);
+  border-color: var(--brand);
+}
+.btn-outline-primary {
+  color: var(--brand);
+  border-color: var(--brand);
+}
